@@ -1,6 +1,6 @@
-# HTML Front End Boilerplate
+# Bootstrap 3 Boilerplate
 
-Yet another boilerplate project for front end applications.
+Yet another boilerplate project for front end applications. Forked from [html-frontend-boilerplate](https://github.com/cwchentw/html-frontend-boilerplate).
 
 ## Technology Stacks
 
@@ -17,7 +17,7 @@ Main tools used during development:
 
 Libraries used in the output:
 
-* [Bootstrap 4](https://getbootstrap.com/) and [Bootstrap.Native](http://thednp.github.io/bootstrap.native/)
+* [Bootstrap 3](https://getbootstrap.com/docs/3.4/) and [Bootstrap.Native](http://thednp.github.io/bootstrap.native/)
 * [Polyfill.io](https://polyfill.io/v3/)
 * [HTML5 Shiv](https://github.com/aFarkas/html5shiv/)
 
@@ -28,7 +28,7 @@ Libraries used in the output:
 Clone this repo and install all tools:
 
 ```
-$ git clone https://github.com/cwchentw/html-frontend-boilerplate.git
+$ git clone https://github.com/cwchentw/bootstrap-3-boilerplate.git
 $ mv html-frontend-boilerplate myapp
 $ cd myapp
 $ npm install
@@ -77,6 +77,10 @@ Upload the content in *public* directory to a remote web server to publish this 
 You should **NOT** use the builtin error pages provided by your web server. Such pages usually reveal too many technical details. Instead, you should set redirecting rules and custom error pages for erroreous HTTP status codes.
 
 In this boilerplate project, we provide a custom HTTP 404 error page. Nevertheless, the page works only on our development environment. You still need to set your own redirecting rules and custom error pages on your production environment.
+
+## Note for Bootstrap.Native Users
+
+The version `2.0.27` is the last version of Bootstrap.Native that supports Bootstrap 3. The project only supports Bootstrap 4 since the version `3.x`.
 
 ## See Also
 
