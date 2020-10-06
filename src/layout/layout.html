@@ -8,16 +8,23 @@
 
         <title>{% block title %}{% endblock %}</title>
 
+        <!-- Respond.js needs a local CSS stylesheet to work properly.
+             Therefore, we provide a local Bootstrap for old IE. -->
+        <!-- Bootstrap CSS, ver 3.4.1 -->
+        <!--[if lt IE 9]>
+            <link rel='stylesheet' href='/vendor/css/bootstrap.min.css'>
+        <![endif]-->
+
+        <!-- We don't need Respond.js on newer IE and modern browsers.
+             Therefore, we fetch Bootstrap from a CDN. -->
         <!-- Bootstrap CSS -->
+        <!--[if gte IE 9 | !IE ]><!-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
             integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <![endif]-->
 
         <link rel="stylesheet" href="/css/app.css">
 
-        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js"></script>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap.native/2.0.27/polyfill.min.js"
-            integrity="sha256-H+ETBMCg8Q8bUrUF6YAtdAtyAJwmElEkpRePbFY3GjA=" crossorigin="anonymous"></script>
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -32,6 +39,9 @@
             </div>
         </div>
 
+        <!-- Polyfill of Bootstrap.Native -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap.native/2.0.27/polyfill.min.js"
+            integrity="sha256-H+ETBMCg8Q8bUrUF6YAtdAtyAJwmElEkpRePbFY3GjA=" crossorigin="anonymous"></script>
         <!-- Bootstrap.Native, V3 version -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap.native/2.0.27/bootstrap-native.min.js"
             integrity="sha512-2gKLp3G+4TAeygLvVLCFpQrBoMMyeaTkKuAOJkO5DjYX6drUqRMOjfA4fz745VA1vGx376r3fajs+R/SwC5y8w==" crossorigin="anonymous"></script>
