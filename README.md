@@ -2,6 +2,10 @@
 
 Yet another boilerplate project for front end applications. Forked from [html-frontend-boilerplate](https://github.com/cwchentw/html-frontend-boilerplate).
 
+## Note
+
+This boilerplate project intends for tiny static sites with few pages. If you want to build a content website, see [mdcms](https://mdcms.org) instead.
+
 ## Technology Stacks
 
 Main tools used during development:
@@ -90,4 +94,4 @@ Why re-inventing the wheel? That project didn't migrate to Gulp 4 yet as this re
 
 ## Copyright
 
-Copyright 2020, Michael Chen. This repo itself is under [MIT license](http://opensource.org/licenses/MIT). Nevertheless, you may adopt it in your own project with any license you prefer.
+Copyright 2020-2021, Michelle Chen. This repo itself is under [MIT license](http://opensource.org/licenses/MIT). Nevertheless, you may adopt it in your own project with any license you prefer.
