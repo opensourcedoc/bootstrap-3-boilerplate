@@ -1,6 +1,6 @@
 # Bootstrap 3 Boilerplate
 
-Yet another boilerplate project for front end applications. Forked from [html-frontend-boilerplate](https://github.com/cwchentw/html-frontend-boilerplate).
+Yet another boilerplate project for front end applications. Forked from [bootstrap-4-boilerplate](https://github.com/cwchentw/bootstrap-4-boilerplate).
 
 ## Note
 
