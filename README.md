@@ -4,7 +4,7 @@ Yet another boilerplate project for front end applications. Forked from [bootstr
 
 ## Note
 
-This boilerplate project intends for tiny static sites with few pages. If you want to build a content website, see [mdcms](https://mdcms.org) instead.
+This boilerplate project intends for tiny static sites with few pages. If you want to build a content website, see [Lightweight CMS](https://lightweightcms.org) instead.
 
 ## Technology Stacks
 
